@@ -357,6 +357,7 @@ ul.social-share li a:hover {
 .slider {
   position: relative;
   /*margin:2vw;*/
+  margin-top: 0.3vw;
   margin-left: 2vw;
   margin-right: 2vw;
 }
@@ -1994,4 +1995,7 @@ ul.sidebar-gallery {
   margin:0;
   width: 100%;
   max-height: 400px;
+}
+.sponsors{
+  margin-bottom: 2vw;
 }
