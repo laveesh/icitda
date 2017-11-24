@@ -342,7 +342,7 @@ ul.social-share li a:hover {
 
 .slider {
   position: relative;
-  margin-top:130px;
+  margin:2vw;
 }
 
 #carousel-slider {
@@ -1973,4 +1973,8 @@ ul.sidebar-gallery {
     background: -moz-linear-gradient(top, #0365aa 0%,#038daa 54%,#038daa 100%);
     background: -webkit-linear-gradient(top, #0365aa 0%,#038daa 54%,#038daa 100%);
     background: linear-gradient(to bottom,#0365aa 0%,#038daa 54%,#038daa 100%);
+}
+.image-fit{
+  margin:0;
+  width: 100%;
 }
