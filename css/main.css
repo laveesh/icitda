@@ -2005,6 +2005,7 @@ ul.sidebar-gallery {
   
   position: fixed;
   z-index: 1111111;
-  right: 0;
-  bottom: 0;
+  right: 30px;
+  bottom: 20px;
+  color: #fff;
 }
