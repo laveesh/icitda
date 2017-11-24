@@ -334,6 +334,14 @@ ul.social-share li a:hover {
   width: 100%;
 }
 
+@media only screen and (max-width:767px ){
+  .navbar-inverse .navbar-nav > li > a {
+
+      font-size: inherit;
+  }
+  
+}
+
 
 /*************************
 *******Home Page******
@@ -342,7 +350,9 @@ ul.social-share li a:hover {
 
 .slider {
   position: relative;
-  margin:2vw;
+  /*margin:2vw;*/
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 #carousel-slider {
@@ -1977,4 +1987,5 @@ ul.sidebar-gallery {
 .image-fit{
   margin:0;
   width: 100%;
+  max-height: 400px;
 }
