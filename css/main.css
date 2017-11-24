@@ -268,7 +268,7 @@ ul.social-share li a:hover {
 
 @media only screen and (max-width:1024px ){
 	.navbar-inverse .navbar-nav > li > a {
-		font-size: 1.37vw;	
+		font-size: 1.34vw;	
 	}
 }
 
@@ -338,8 +338,16 @@ ul.social-share li a:hover {
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-top: 0;
+  padding-left: 7vw;
   padding-bottom: 0;
   width: 100%;
+   
+}
+@media only screen and (max-width:1177px ){
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form{
+    padding: 0;
+  }
 }
 
 @media only screen and (max-width:767px ){
@@ -1493,7 +1501,7 @@ textarea#message{
 ****blog page css*****
 **********************/
 #blog {
-	margin-top:70px;
+	margin-top:0;
 }
 .widget {
   margin-bottom: 60px;
@@ -2006,7 +2014,34 @@ ul.sidebar-gallery {
   
   position: fixed;
   z-index: 1111111;
-  right: 30px;
-  bottom: 20px;
+  right: 0;
+  bottom: 0;
   color: #fff;
+}
+#font-white {
+  border: 4px solid rgba(45, 45, 207, 0.836) ;
+  width: 100%;
+  padding: 20px;
+
+}
+#font-white tr{
+  border: 1px solid rgb(25, 80, 163)  ;
+}
+#font-white tr th{
+  /* background:rgb(22, 135, 180); */
+  background:rgb(140, 208, 235); /* For browsers that do not support gradients */
+  background: -webkit-repeating-linear-gradient( rgb(22, 135, 180), rgb(20, 147, 206),rgb(22, 135, 180)); 
+  background: -o-repeating-linear-gradient(rgb(22, 135, 180), white,rgb(22, 135, 180));
+  background: -moz-repeating-linear-gradient(rgb(22, 135, 180), white,rgb(22, 135, 180)); 
+  background: repeating-linear-gradient(rgb(22, 135, 180), rgba(0, 182, 248, 0.726),rgb(22, 135, 180));
+  
+   border: 1px solid black;
+   text-align: center;
+} 
+#font-white tr td{
+  border: 1px solid black;
+  padding-left :20px; 
+}
+#font-white tr:nth-child(2n-1) {
+background-color: rgb(184, 204, 212);
 }
