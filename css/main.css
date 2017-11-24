@@ -1493,7 +1493,7 @@ textarea#message{
 ****blog page css*****
 **********************/
 #blog {
-	margin-top:70px;
+	margin-top:0;
 }
 .widget {
   margin-bottom: 60px;
@@ -2020,12 +2020,12 @@ ul.sidebar-gallery {
   border: 1px solid rgb(25, 80, 163)  ;
 }
 #font-white tr th{
-  /* background-image: linear-gradient()rgb(22, 135, 180); */
-  background:rgb(22, 135, 180); /* For browsers that do not support gradients */
-  background: -webkit-repeating-linear-gradient( rgb(22, 135, 180), white,rgb(22, 135, 180)); /* For Safari 5.1 to 6.0 */
-  background: -o-repeating-linear-gradient(rgb(22, 135, 180), white,rgb(22, 135, 180)); /* For Opera 11.1 to 12.0 */
-  background: -moz-repeating-linear-gradient(rgb(22, 135, 180), white,rgb(22, 135, 180)); /* For Firefox 3.6 to 15 */
-  background: repeating-repeating-linear-gradient(rgb(22, 135, 180), white,rgb(22, 135, 180));
+  /* background:rgb(22, 135, 180); */
+  background:rgb(140, 208, 235); /* For browsers that do not support gradients */
+  background: -webkit-repeating-linear-gradient( rgb(22, 135, 180), rgb(20, 147, 206),rgb(22, 135, 180)); 
+  background: -o-repeating-linear-gradient(rgb(22, 135, 180), white,rgb(22, 135, 180));
+  background: -moz-repeating-linear-gradient(rgb(22, 135, 180), white,rgb(22, 135, 180)); 
+  background: repeating-linear-gradient(rgb(22, 135, 180), rgba(0, 182, 248, 0.726),rgb(22, 135, 180));
   
    border: 1px solid black;
    text-align: center;
