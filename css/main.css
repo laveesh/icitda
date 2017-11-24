@@ -1979,6 +1979,7 @@ ul.sidebar-gallery {
   margin: 2px;
 }
 
+
 }
 
 .div-gradiant{
@@ -1999,4 +2000,11 @@ ul.sidebar-gallery {
 }
 .sponsors{
   margin-bottom: 2vw;
+}
+.back{
+  
+  position: fixed;
+  z-index: 1111111;
+  right: 0;
+  bottom: 0;
 }
