@@ -2015,7 +2015,7 @@ ul.sidebar-gallery {
   position: fixed;
   z-index: 1111111;
   right: 20px;
-  bottom: 30px;
+  bottom:0;
   color: #fff;
 }
 #font-white {
