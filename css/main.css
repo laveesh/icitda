@@ -355,6 +355,9 @@ ul.social-share li a:hover {
 
       font-size: inherit;
   }
+   .navbar-nav{
+    margin: 10px;
+  }
   
 }
 
