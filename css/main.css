@@ -355,6 +355,9 @@ ul.social-share li a:hover {
 
       font-size: inherit;
   }
+   .navbar-nav{
+    margin: 10px;
+  }
   
 }
 
@@ -2070,3 +2073,15 @@ color: yellow;
 }	
 
 	}
+
+  .desc{
+    background-color: transparent; 
+    position: absolute;
+    left: 20px;
+
+  }
+  .desc h1{
+     color: black !important  ;
+     font-family: 'Comic sans MS',sans-serif;
+     font-size: 16px;
+  }
