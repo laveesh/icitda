@@ -2045,3 +2045,13 @@ ul.sidebar-gallery {
 #font-white tr:nth-child(2n-1) {
 background-color: rgb(184, 204, 212);
 }
+
+.bgdates{
+  background-repeat: no-repeat;
+background-size: cover;
+background-position: top center;
+width: 100%;
+float: left;
+background-image: url(../images/bgdates.jpg);
+color: yellow;
+}
