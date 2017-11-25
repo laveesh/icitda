@@ -1926,7 +1926,7 @@ ul.sidebar-gallery {
 
 .banner>div{
   
-  height: 100%;
+  
   display: flex;
   padding: 1em;
   align-items: center;
@@ -2055,3 +2055,18 @@ float: left;
 background-image: url(../images/bgdates.jpg);
 color: yellow;
 }
+.Association{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.association-partners{
+	margin-left: 5vw;
+}
+@media only screen and (max-width:425px ){
+
+.association-partners{
+	margin-left: 0;
+}	
+
+	}
