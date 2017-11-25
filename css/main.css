@@ -2073,3 +2073,13 @@ color: yellow;
 }	
 
 	}
+
+  .desc{
+    background-color: transparent; 
+    position: absolute;
+
+  }
+  .desc h1{
+     color: black !important  ;
+     font-family: 'Comic sans MS',sans-serif;
+  }
